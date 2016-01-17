@@ -9,11 +9,11 @@ if [ -f ~/.git-prompt.sh ]; then
   PS1=""
 else
   # Basic Prompt
-  PS1="\[\e[0;32m\]\h \[\e[0;35m\]\w\[\e[0m \[\e[0;37m\] > \[\e[0m\]"
+  PS1="\[\e[0;32m\]\h \[\e[0;35m\]\w\[\e[0m\] \[\e[0;37m\] > \[\e[0m\]"
 fi
 
 # Aliases
-alias ls='ls --color'
+alias ls='ls -G'
 alias grep='grep --color'
 alias ll='ls -lh'
 alias la='ls -lha'
